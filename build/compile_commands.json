@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/janec/semestralnaPraca/build/kralovstva",
+  "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/budova.c.o -c /home/janec/semestralnaPraca/kralovstva/budova.c",
+  "file": "/home/janec/semestralnaPraca/kralovstva/budova.c",
+  "output": "kralovstva/CMakeFiles/kralovstva.dir/budova.c.o"
+},
+{
+  "directory": "/home/janec/semestralnaPraca/build/kralovstva",
+  "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/hrac.c.o -c /home/janec/semestralnaPraca/kralovstva/hrac.c",
+  "file": "/home/janec/semestralnaPraca/kralovstva/hrac.c",
+  "output": "kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o"
+},
+{
+  "directory": "/home/janec/semestralnaPraca/build/kralovstva",
+  "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/kralovstvo.c.o -c /home/janec/semestralnaPraca/kralovstva/kralovstvo.c",
+  "file": "/home/janec/semestralnaPraca/kralovstva/kralovstvo.c",
+  "output": "kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o"
+},
+{
+  "directory": "/home/janec/semestralnaPraca/build/kralovstva",
+  "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/main.c.o -c /home/janec/semestralnaPraca/kralovstva/main.c",
+  "file": "/home/janec/semestralnaPraca/kralovstva/main.c",
+  "output": "kralovstva/CMakeFiles/kralovstva.dir/main.c.o"
+}
+]

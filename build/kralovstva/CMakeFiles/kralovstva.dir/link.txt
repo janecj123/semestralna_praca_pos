@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/kralovstva.dir/budova.c.o CMakeFiles/kralovstva.dir/hrac.c.o CMakeFiles/kralovstva.dir/kralovstvo.c.o CMakeFiles/kralovstva.dir/main.c.o -o kralovstva 
