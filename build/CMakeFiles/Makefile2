@@ -96,12 +96,12 @@ kralovstva/clean: kralovstva/CMakeFiles/kralovstva.dir/clean
 kralovstva/CMakeFiles/kralovstva.dir/all:
 	$(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/depend
 	$(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target kralovstva"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target kralovstva"
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/all
 
 # Build rule for subdir invocation for target.
 kralovstva/CMakeFiles/kralovstva.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/CMakeFiles/kralovstva.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles 0
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/rule

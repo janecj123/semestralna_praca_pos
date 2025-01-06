@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/kralovstva.dir/armada.c.o"
+  "CMakeFiles/kralovstva.dir/armada.c.o.d"
   "CMakeFiles/kralovstva.dir/budova.c.o"
   "CMakeFiles/kralovstva.dir/budova.c.o.d"
   "CMakeFiles/kralovstva.dir/hrac.c.o"

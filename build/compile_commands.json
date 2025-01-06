@@ -22,5 +22,11 @@
   "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/main.c.o -c /home/janec/semestralnaPraca/kralovstva/main.c",
   "file": "/home/janec/semestralnaPraca/kralovstva/main.c",
   "output": "kralovstva/CMakeFiles/kralovstva.dir/main.c.o"
+},
+{
+  "directory": "/home/janec/semestralnaPraca/build/kralovstva",
+  "command": "/usr/bin/cc   -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/armada.c.o -c /home/janec/semestralnaPraca/kralovstva/armada.c",
+  "file": "/home/janec/semestralnaPraca/kralovstva/armada.c",
+  "output": "kralovstva/CMakeFiles/kralovstva.dir/armada.c.o"
 }
 ]

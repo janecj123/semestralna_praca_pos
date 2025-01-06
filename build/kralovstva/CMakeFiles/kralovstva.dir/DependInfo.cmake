@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/janec/semestralnaPraca/kralovstva/armada.c" "kralovstva/CMakeFiles/kralovstva.dir/armada.c.o" "gcc" "kralovstva/CMakeFiles/kralovstva.dir/armada.c.o.d"
   "/home/janec/semestralnaPraca/kralovstva/budova.c" "kralovstva/CMakeFiles/kralovstva.dir/budova.c.o" "gcc" "kralovstva/CMakeFiles/kralovstva.dir/budova.c.o.d"
   "/home/janec/semestralnaPraca/kralovstva/hrac.c" "kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o" "gcc" "kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o.d"
   "/home/janec/semestralnaPraca/kralovstva/kralovstvo.c" "kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o" "gcc" "kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o.d"

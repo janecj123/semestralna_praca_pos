@@ -130,6 +130,30 @@ kralovstva/fast:
 	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/build
 .PHONY : kralovstva/fast
 
+armada.o: armada.c.o
+.PHONY : armada.o
+
+# target to build an object file
+armada.c.o:
+	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.o
+.PHONY : armada.c.o
+
+armada.i: armada.c.i
+.PHONY : armada.i
+
+# target to preprocess a source file
+armada.c.i:
+	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.i
+.PHONY : armada.c.i
+
+armada.s: armada.c.s
+.PHONY : armada.s
+
+# target to generate assembly for a file
+armada.c.s:
+	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.s
+.PHONY : armada.c.s
+
 budova.o: budova.c.o
 .PHONY : budova.o
 
@@ -235,6 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... kralovstva"
+	@echo "... armada.o"
+	@echo "... armada.i"
+	@echo "... armada.s"
 	@echo "... budova.o"
 	@echo "... budova.i"
 	@echo "... budova.s"
