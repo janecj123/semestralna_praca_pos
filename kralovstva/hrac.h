@@ -1,5 +1,5 @@
-#ifndef HRAC_H
-#define HRAC_H
+#ifndef HRAC
+#define HRAC
 
 #include "kralovstvo.h"
 
@@ -7,21 +7,31 @@
 typedef struct hrac {
     char* meno_;
     kralovstvo* kralovstvo_;
-    pthread_t* vlaknoSuroviny_;
-    pthread_t* vlaknoPridavanieObycajnychBudov_;
-    pthread_t* vlaknoPridavanieArmadnychBudov_;
-    pthread_t* vlaknoArmady_;
+    
 }hrac;
 
+typedef struct utok
+{
+    armada* armada_;
+    char* menoObrancu_;
+    char* menoUtociaceho_;
+    int poctyVojakov_[POCET_DRUHOV_VOJAKOV];
+}utok;
 
+
+void zautoc(hrac* utocnik);
+
+//TODO ked prebehne utok zmensit velkost armady utocnika aj obrancu
+void branSa(hrac* utocnik, hrac* obranca);
 void hracINIT(hrac* hracPar, char* cesta, char* meno);
-void hlavneMenu();
 void hracDestroy(hrac* hracPar);
-void vypisInformacieMenu();
-void zvysovanieUrovneMenu();
-void verbovanieMenu();
 void zacniHru();
 void hraj(hrac* hracPar);
 void ukonciHru(hrac* hracPar);
+void hlavneMenu();
+void vypisInformacieMenu();
+void zvysovanieUrovneMenu();
+void verbovanieMenu();
+void prehra(hrac* hracPar);
 
 #endif //HRAC_H

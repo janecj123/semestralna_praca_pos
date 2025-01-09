@@ -1,47 +1,67 @@
-#ifndef KRALOVSTVO_H
-#define KRALOVSTVO_H
+#ifndef KRALOVSTVO
+#define KRALOVSTVO
 
 
 #include <stdbool.h>
 #include "armada.h"
 
 
+typedef struct suroviny {
+    int kamen_;
+    int drevo_;
+    int zelezo_;
+    budovaObycajna* kamenolom_;
+    budovaObycajna* drevorubac_;
+    budovaObycajna* zeleziarne_;
+    budovaObycajna* sklad_;
+    atomic_bool koniecHry_;
+    pthread_mutex_t mutex_;
+    pthread_mutex_t* mutexVerbovisko_;
+}suroviny;
+
 typedef struct kralovstvo {
     budovaObycajna budovyObycajne_[POCET_BUDOV_OBYCAJNA];
     budovaArmada budovyArmady_[POCET_BUDOV_ARMADA];
-    suroviny suroviny_;
     char** nazvyObycajnychBudov_;
     char** nazvyArmadnychBudov_;
     char** nazvyVojakov_;
     zvysovacUrovneBudovaObycajna zdielanyBufferObycajna_;
     zvysovacUrovneBudovaArmada zdielanyBufferArmada_;
-    pthread_mutex_t mutex_;
     armada armada_;
+    suroviny suroviny_;
+
+    pthread_mutex_t mutexKralovstvo_;
+    pthread_mutex_t mutexVerbovisko_;
+    pthread_t vlaknoSuroviny_;
+    pthread_t vlaknoPridavanieObycajnychBudov_;
+    pthread_t vlaknoPridavanieArmadnychBudov_;
+    pthread_t vlaknoArmady_;
 } kralovstvo;
 
 
 
 
-void kralovstvoINIT(kralovstvo* kralovstvoPar, char* cesta, pthread_t* vlaknoSuroviny, pthread_t* vlaknoPridavanieObycajnychBudov, pthread_t* vlaknoPridavanieArmadnychBudov, pthread_t* vlaknoArmady);
-void kralovstvoDestroy(kralovstvo* kralovstvoPar,  pthread_t vlaknoSuroviny, pthread_t vlaknoPridavanieObycajnychBudov, pthread_t vlaknoPridavanieArmadnychBudov, pthread_t vlaknoArmady);
-void zvysovacUrovneObycajnaDestroy(zvysovacUrovneBudovaObycajna* zvysovac);
-void zvysovacUronveArmadnaDestroy(zvysovacUrovneBudovaArmada* zvysovac);
-void armadaDestroy(armada* armadaPar);
-void budovyObycajneINIT( kralovstvo*   kralovstvoPar);
-void budovyArmadyINIT( kralovstvo*  kralovstvoPar);
-void pociatoceHodnotyINIT(kralovstvo* kralovstvoPar, char* cesta);
+void kralovstvoINIT(kralovstvo* kralovstvoPar, char* cesta);
+void kralovstvoDestroy(kralovstvo* kralovstvoPar);
+
+
+void budovyObycajneINIT(kralovstvo* kralovstvoPar);
+void budovyArmadyINIT(kralovstvo* kralovstvoPar);
+void surovinyINIT(kralovstvo* kralovstvoPar);
 void vojaciINIT(kralovstvo* kralovstvoPar);
-void zvysovacUrovneObycajnaINIT(int hlavnaBudovaUroven, zvysovacUrovneBudovaObycajna* zvysovac);
-void zvysovacUrovneArmadnaINIT(int hlavnaBudovaUroven, zvysovacUrovneBudovaArmada* zvysovac);
-void zvysUrovenObycajna(int hlavnaBudovaUroven, budovaObycajna* budovaNaVylepsenie, kralovstvo* kralovstvoPar);
-void zvysUrovenArmadna(int hlavnaBudovaUroven, budovaArmada* budovaNaVylepsenie, kralovstvo* kralovstvoPar);
+void pociatoceHodnotyINIT(kralovstvo* kralovstvoPar, char* cesta);
+
+
+void zvysUrovenObycajna(int hlavnaBudovaUroven, budovaObycajna* budovaNaVylepsenie, suroviny* kralovstvoPar, zvysovacUrovneBudovaObycajna* zvysovac);
+void zvysUrovenArmadna(int hlavnaBudovaUroven, budovaArmada* budovaNaVylepsenie, suroviny* surovinyPar, zvysovacUrovneBudovaArmada* zvysovac);
 bool daSaPridatObycajna(zvysovacUrovneBudovaObycajna* zvysovac);
 bool daSaPridatArmadna(zvysovacUrovneBudovaArmada* zvysovac);
-bool overDostatokSurovinAUrovenObycajna(kralovstvo* kralovstvoPar, budovaObycajna* budova);
-bool overDostatokSurovinAUrovenArmadna(kralovstvo* kralovstvoPar, budovaArmada* budova);
-bool daSaPridatVerbovanie(armada* armadaPar, budovaArmada* budova, typVojaka typ);
-bool overDostatokSurovinNaVerbovanie(suroviny* surovinyPar, armada* armadaPar, typVojaka typ, int pocet);
+bool overDostatokSurovinAUrovenObycajna(suroviny* surovinyPar, budovaObycajna* budova);
+bool overDostatokSurovinAUrovenArmadna(suroviny* surovinyPar, budovaArmada* budova);
 void verbujNovychVojakov(budovaArmada* budova,int pocet, typVojaka typ ,suroviny* surovinyPar, armada* armadaPar);
+bool daSaPridatVerbovanie(armada* armadaPar, budovaArmada* budova, typVojaka typ, int pocet);
+bool overDostatokSurovinNaVerbovanie(suroviny* surovinyPar, armada* armadaPar, typVojaka typ, int pocet);
+void* spravujSuroviny(void* surovinyPar);
 
 void vypisInfoBudovy( kralovstvo* kralovstvoPar);
 void vypisInfoVojsko( kralovstvo* kralovstvoPar);

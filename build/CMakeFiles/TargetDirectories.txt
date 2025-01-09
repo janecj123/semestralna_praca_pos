@@ -1,5 +1,5 @@
-/home/janec/semestralnaPraca/build/CMakeFiles/edit_cache.dir
-/home/janec/semestralnaPraca/build/CMakeFiles/rebuild_cache.dir
-/home/janec/semestralnaPraca/build/kralovstva/CMakeFiles/kralovstva.dir
-/home/janec/semestralnaPraca/build/kralovstva/CMakeFiles/edit_cache.dir
-/home/janec/semestralnaPraca/build/kralovstva/CMakeFiles/rebuild_cache.dir
+/home/janec/semestralnaPraca 2.0/build/CMakeFiles/edit_cache.dir
+/home/janec/semestralnaPraca 2.0/build/CMakeFiles/rebuild_cache.dir
+/home/janec/semestralnaPraca 2.0/build/kralovstva/CMakeFiles/kralovstva.dir
+/home/janec/semestralnaPraca 2.0/build/kralovstva/CMakeFiles/edit_cache.dir
+/home/janec/semestralnaPraca 2.0/build/kralovstva/CMakeFiles/rebuild_cache.dir

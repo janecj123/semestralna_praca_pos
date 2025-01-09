@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/janec/semestralnaPraca
+CMAKE_SOURCE_DIR = "/home/janec/semestralnaPraca 2.0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/janec/semestralnaPraca/build
+CMAKE_BINARY_DIR = "/home/janec/semestralnaPraca 2.0/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/janec/semestralnaPraca/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles /home/janec/semestralnaPraca/build/kralovstva//CMakeFiles/progress.marks
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles 0
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/janec/semestralnaPraca 2.0/build/CMakeFiles" "/home/janec/semestralnaPraca 2.0/build/kralovstva//CMakeFiles/progress.marks"
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/janec/semestralnaPraca 2.0/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/clean
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/preinstall
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/preinstall
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/janec/semestralnaPraca/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kralovstva/CMakeFiles/kralovstva.dir/rule:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/CMakeFiles/kralovstva.dir/rule
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva/CMakeFiles/kralovstva.dir/rule
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ kralovstva: kralovstva/CMakeFiles/kralovstva.dir/rule
 
 # fast build rule for target.
 kralovstva/fast:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/build
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/build
 .PHONY : kralovstva/fast
 
 armada.o: armada.c.o
@@ -135,7 +135,7 @@ armada.o: armada.c.o
 
 # target to build an object file
 armada.c.o:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.o
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.o
 .PHONY : armada.c.o
 
 armada.i: armada.c.i
@@ -143,7 +143,7 @@ armada.i: armada.c.i
 
 # target to preprocess a source file
 armada.c.i:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.i
 .PHONY : armada.c.i
 
 armada.s: armada.c.s
@@ -151,7 +151,7 @@ armada.s: armada.c.s
 
 # target to generate assembly for a file
 armada.c.s:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/armada.c.s
 .PHONY : armada.c.s
 
 budova.o: budova.c.o
@@ -159,7 +159,7 @@ budova.o: budova.c.o
 
 # target to build an object file
 budova.c.o:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.o
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.o
 .PHONY : budova.c.o
 
 budova.i: budova.c.i
@@ -167,7 +167,7 @@ budova.i: budova.c.i
 
 # target to preprocess a source file
 budova.c.i:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.i
 .PHONY : budova.c.i
 
 budova.s: budova.c.s
@@ -175,15 +175,39 @@ budova.s: budova.c.s
 
 # target to generate assembly for a file
 budova.c.s:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/budova.c.s
 .PHONY : budova.c.s
+
+hra.o: hra.c.o
+.PHONY : hra.o
+
+# target to build an object file
+hra.c.o:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hra.c.o
+.PHONY : hra.c.o
+
+hra.i: hra.c.i
+.PHONY : hra.i
+
+# target to preprocess a source file
+hra.c.i:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hra.c.i
+.PHONY : hra.c.i
+
+hra.s: hra.c.s
+.PHONY : hra.s
+
+# target to generate assembly for a file
+hra.c.s:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hra.c.s
+.PHONY : hra.c.s
 
 hrac.o: hrac.c.o
 .PHONY : hrac.o
 
 # target to build an object file
 hrac.c.o:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o
 .PHONY : hrac.c.o
 
 hrac.i: hrac.c.i
@@ -191,7 +215,7 @@ hrac.i: hrac.c.i
 
 # target to preprocess a source file
 hrac.c.i:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.i
 .PHONY : hrac.c.i
 
 hrac.s: hrac.c.s
@@ -199,7 +223,7 @@ hrac.s: hrac.c.s
 
 # target to generate assembly for a file
 hrac.c.s:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/hrac.c.s
 .PHONY : hrac.c.s
 
 kralovstvo.o: kralovstvo.c.o
@@ -207,7 +231,7 @@ kralovstvo.o: kralovstvo.c.o
 
 # target to build an object file
 kralovstvo.c.o:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o
 .PHONY : kralovstvo.c.o
 
 kralovstvo.i: kralovstvo.c.i
@@ -215,7 +239,7 @@ kralovstvo.i: kralovstvo.c.i
 
 # target to preprocess a source file
 kralovstvo.c.i:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.i
 .PHONY : kralovstvo.c.i
 
 kralovstvo.s: kralovstvo.c.s
@@ -223,7 +247,7 @@ kralovstvo.s: kralovstvo.c.s
 
 # target to generate assembly for a file
 kralovstvo.c.s:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.s
 .PHONY : kralovstvo.c.s
 
 main.o: main.c.o
@@ -231,7 +255,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.o
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -239,7 +263,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -247,8 +271,104 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/janec/semestralnaPraca/build && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/main.c.s
 .PHONY : main.c.s
+
+shm.o: shm.c.o
+.PHONY : shm.o
+
+# target to build an object file
+shm.c.o:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/shm.c.o
+.PHONY : shm.c.o
+
+shm.i: shm.c.i
+.PHONY : shm.i
+
+# target to preprocess a source file
+shm.c.i:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/shm.c.i
+.PHONY : shm.c.i
+
+shm.s: shm.c.s
+.PHONY : shm.s
+
+# target to generate assembly for a file
+shm.c.s:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/shm.c.s
+.PHONY : shm.c.s
+
+zdielane_buffere.o: zdielane_buffere.c.o
+.PHONY : zdielane_buffere.o
+
+# target to build an object file
+zdielane_buffere.c.o:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o
+.PHONY : zdielane_buffere.c.o
+
+zdielane_buffere.i: zdielane_buffere.c.i
+.PHONY : zdielane_buffere.i
+
+# target to preprocess a source file
+zdielane_buffere.c.i:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.i
+.PHONY : zdielane_buffere.c.i
+
+zdielane_buffere.s: zdielane_buffere.c.s
+.PHONY : zdielane_buffere.s
+
+# target to generate assembly for a file
+zdielane_buffere.c.s:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.s
+.PHONY : zdielane_buffere.c.s
+
+zdielane_data.o: zdielane_data.c.o
+.PHONY : zdielane_data.o
+
+# target to build an object file
+zdielane_data.c.o:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o
+.PHONY : zdielane_data.c.o
+
+zdielane_data.i: zdielane_data.c.i
+.PHONY : zdielane_data.i
+
+# target to preprocess a source file
+zdielane_data.c.i:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.i
+.PHONY : zdielane_data.c.i
+
+zdielane_data.s: zdielane_data.c.s
+.PHONY : zdielane_data.s
+
+# target to generate assembly for a file
+zdielane_data.c.s:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.s
+.PHONY : zdielane_data.c.s
+
+zdielane_nazvy.o: zdielane_nazvy.c.o
+.PHONY : zdielane_nazvy.o
+
+# target to build an object file
+zdielane_nazvy.c.o:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o
+.PHONY : zdielane_nazvy.c.o
+
+zdielane_nazvy.i: zdielane_nazvy.c.i
+.PHONY : zdielane_nazvy.i
+
+# target to preprocess a source file
+zdielane_nazvy.c.i:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.i
+.PHONY : zdielane_nazvy.c.i
+
+zdielane_nazvy.s: zdielane_nazvy.c.s
+.PHONY : zdielane_nazvy.s
+
+# target to generate assembly for a file
+zdielane_nazvy.c.s:
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.s
+.PHONY : zdielane_nazvy.c.s
 
 # Help Target
 help:
@@ -265,6 +385,9 @@ help:
 	@echo "... budova.o"
 	@echo "... budova.i"
 	@echo "... budova.s"
+	@echo "... hra.o"
+	@echo "... hra.i"
+	@echo "... hra.s"
 	@echo "... hrac.o"
 	@echo "... hrac.i"
 	@echo "... hrac.s"
@@ -274,6 +397,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shm.o"
+	@echo "... shm.i"
+	@echo "... shm.s"
+	@echo "... zdielane_buffere.o"
+	@echo "... zdielane_buffere.i"
+	@echo "... zdielane_buffere.s"
+	@echo "... zdielane_data.o"
+	@echo "... zdielane_data.i"
+	@echo "... zdielane_data.s"
+	@echo "... zdielane_nazvy.o"
+	@echo "... zdielane_nazvy.i"
+	@echo "... zdielane_nazvy.s"
 .PHONY : help
 
 
@@ -285,6 +420,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/janec/semestralnaPraca/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

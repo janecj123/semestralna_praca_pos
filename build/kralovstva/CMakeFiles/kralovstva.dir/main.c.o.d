@@ -1,11 +1,11 @@
 kralovstva/CMakeFiles/kralovstva.dir/main.c.o: \
- /home/janec/semestralnaPraca/kralovstva/main.c \
+ /home/janec/semestralnaPraca\ 2.0/kralovstva/main.c \
  /usr/include/stdc-predef.h \
- /home/janec/semestralnaPraca/kralovstva/hrac.h \
- /home/janec/semestralnaPraca/kralovstva/kralovstvo.h \
+ /home/janec/semestralnaPraca\ 2.0/kralovstva/hrac.h \
+ /home/janec/semestralnaPraca\ 2.0/kralovstva/kralovstvo.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/janec/semestralnaPraca/kralovstva/armada.h \
- /home/janec/semestralnaPraca/kralovstva/budova.h \
+ /home/janec/semestralnaPraca\ 2.0/kralovstva/armada.h \
+ /home/janec/semestralnaPraca\ 2.0/kralovstva/budova.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdatomic.h \
  /usr/include/pthread.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -26,6 +26,9 @@ kralovstva/CMakeFiles/kralovstva.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
@@ -39,7 +42,10 @@ kralovstva/CMakeFiles/kralovstva.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h

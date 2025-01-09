@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/janec/semestralnaPraca
+CMAKE_SOURCE_DIR = "/home/janec/semestralnaPraca 2.0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/janec/semestralnaPraca/build
+CMAKE_BINARY_DIR = "/home/janec/semestralnaPraca 2.0/build"
 
 # Include any dependencies generated for this target.
 include kralovstva/CMakeFiles/kralovstva.dir/depend.make
@@ -70,74 +70,144 @@ include kralovstva/CMakeFiles/kralovstva.dir/progress.make
 include kralovstva/CMakeFiles/kralovstva.dir/flags.make
 
 kralovstva/CMakeFiles/kralovstva.dir/budova.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
-kralovstva/CMakeFiles/kralovstva.dir/budova.c.o: /home/janec/semestralnaPraca/kralovstva/budova.c
+kralovstva/CMakeFiles/kralovstva.dir/budova.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/budova.c
 kralovstva/CMakeFiles/kralovstva.dir/budova.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kralovstva/CMakeFiles/kralovstva.dir/budova.c.o"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/budova.c.o -MF CMakeFiles/kralovstva.dir/budova.c.o.d -o CMakeFiles/kralovstva.dir/budova.c.o -c /home/janec/semestralnaPraca/kralovstva/budova.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object kralovstva/CMakeFiles/kralovstva.dir/budova.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/budova.c.o -MF CMakeFiles/kralovstva.dir/budova.c.o.d -o CMakeFiles/kralovstva.dir/budova.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/budova.c"
 
 kralovstva/CMakeFiles/kralovstva.dir/budova.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/budova.c.i"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/janec/semestralnaPraca/kralovstva/budova.c > CMakeFiles/kralovstva.dir/budova.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/budova.c" > CMakeFiles/kralovstva.dir/budova.c.i
 
 kralovstva/CMakeFiles/kralovstva.dir/budova.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/budova.c.s"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/janec/semestralnaPraca/kralovstva/budova.c -o CMakeFiles/kralovstva.dir/budova.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/budova.c" -o CMakeFiles/kralovstva.dir/budova.c.s
 
 kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
-kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o: /home/janec/semestralnaPraca/kralovstva/hrac.c
+kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/hrac.c
 kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o -MF CMakeFiles/kralovstva.dir/hrac.c.o.d -o CMakeFiles/kralovstva.dir/hrac.c.o -c /home/janec/semestralnaPraca/kralovstva/hrac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o -MF CMakeFiles/kralovstva.dir/hrac.c.o.d -o CMakeFiles/kralovstva.dir/hrac.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/hrac.c"
 
 kralovstva/CMakeFiles/kralovstva.dir/hrac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/hrac.c.i"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/janec/semestralnaPraca/kralovstva/hrac.c > CMakeFiles/kralovstva.dir/hrac.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/hrac.c" > CMakeFiles/kralovstva.dir/hrac.c.i
 
 kralovstva/CMakeFiles/kralovstva.dir/hrac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/hrac.c.s"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/janec/semestralnaPraca/kralovstva/hrac.c -o CMakeFiles/kralovstva.dir/hrac.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/hrac.c" -o CMakeFiles/kralovstva.dir/hrac.c.s
 
 kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
-kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o: /home/janec/semestralnaPraca/kralovstva/kralovstvo.c
+kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/kralovstvo.c
 kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o -MF CMakeFiles/kralovstva.dir/kralovstvo.c.o.d -o CMakeFiles/kralovstva.dir/kralovstvo.c.o -c /home/janec/semestralnaPraca/kralovstva/kralovstvo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o -MF CMakeFiles/kralovstva.dir/kralovstvo.c.o.d -o CMakeFiles/kralovstva.dir/kralovstvo.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/kralovstvo.c"
 
 kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/kralovstvo.c.i"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/janec/semestralnaPraca/kralovstva/kralovstvo.c > CMakeFiles/kralovstva.dir/kralovstvo.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/kralovstvo.c" > CMakeFiles/kralovstva.dir/kralovstvo.c.i
 
 kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/kralovstvo.c.s"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/janec/semestralnaPraca/kralovstva/kralovstvo.c -o CMakeFiles/kralovstva.dir/kralovstvo.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/kralovstvo.c" -o CMakeFiles/kralovstva.dir/kralovstvo.c.s
 
 kralovstva/CMakeFiles/kralovstva.dir/main.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
-kralovstva/CMakeFiles/kralovstva.dir/main.c.o: /home/janec/semestralnaPraca/kralovstva/main.c
+kralovstva/CMakeFiles/kralovstva.dir/main.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/main.c
 kralovstva/CMakeFiles/kralovstva.dir/main.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kralovstva/CMakeFiles/kralovstva.dir/main.c.o"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/main.c.o -MF CMakeFiles/kralovstva.dir/main.c.o.d -o CMakeFiles/kralovstva.dir/main.c.o -c /home/janec/semestralnaPraca/kralovstva/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object kralovstva/CMakeFiles/kralovstva.dir/main.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/main.c.o -MF CMakeFiles/kralovstva.dir/main.c.o.d -o CMakeFiles/kralovstva.dir/main.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/main.c"
 
 kralovstva/CMakeFiles/kralovstva.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/main.c.i"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/janec/semestralnaPraca/kralovstva/main.c > CMakeFiles/kralovstva.dir/main.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/main.c" > CMakeFiles/kralovstva.dir/main.c.i
 
 kralovstva/CMakeFiles/kralovstva.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/main.c.s"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/janec/semestralnaPraca/kralovstva/main.c -o CMakeFiles/kralovstva.dir/main.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/main.c" -o CMakeFiles/kralovstva.dir/main.c.s
 
 kralovstva/CMakeFiles/kralovstva.dir/armada.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
-kralovstva/CMakeFiles/kralovstva.dir/armada.c.o: /home/janec/semestralnaPraca/kralovstva/armada.c
+kralovstva/CMakeFiles/kralovstva.dir/armada.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/armada.c
 kralovstva/CMakeFiles/kralovstva.dir/armada.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object kralovstva/CMakeFiles/kralovstva.dir/armada.c.o"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/armada.c.o -MF CMakeFiles/kralovstva.dir/armada.c.o.d -o CMakeFiles/kralovstva.dir/armada.c.o -c /home/janec/semestralnaPraca/kralovstva/armada.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object kralovstva/CMakeFiles/kralovstva.dir/armada.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/armada.c.o -MF CMakeFiles/kralovstva.dir/armada.c.o.d -o CMakeFiles/kralovstva.dir/armada.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/armada.c"
 
 kralovstva/CMakeFiles/kralovstva.dir/armada.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/armada.c.i"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/janec/semestralnaPraca/kralovstva/armada.c > CMakeFiles/kralovstva.dir/armada.c.i
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/armada.c" > CMakeFiles/kralovstva.dir/armada.c.i
 
 kralovstva/CMakeFiles/kralovstva.dir/armada.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/armada.c.s"
-	cd /home/janec/semestralnaPraca/build/kralovstva && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/janec/semestralnaPraca/kralovstva/armada.c -o CMakeFiles/kralovstva.dir/armada.c.s
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/armada.c" -o CMakeFiles/kralovstva.dir/armada.c.s
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/zdielane_data.c
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o -MF CMakeFiles/kralovstva.dir/zdielane_data.c.o.d -o CMakeFiles/kralovstva.dir/zdielane_data.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_data.c"
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/zdielane_data.c.i"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_data.c" > CMakeFiles/kralovstva.dir/zdielane_data.c.i
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/zdielane_data.c.s"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_data.c" -o CMakeFiles/kralovstva.dir/zdielane_data.c.s
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/zdielane_nazvy.c
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o -MF CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o.d -o CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_nazvy.c"
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/zdielane_nazvy.c.i"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_nazvy.c" > CMakeFiles/kralovstva.dir/zdielane_nazvy.c.i
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/zdielane_nazvy.c.s"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_nazvy.c" -o CMakeFiles/kralovstva.dir/zdielane_nazvy.c.s
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/zdielane_buffere.c
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o -MF CMakeFiles/kralovstva.dir/zdielane_buffere.c.o.d -o CMakeFiles/kralovstva.dir/zdielane_buffere.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_buffere.c"
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/zdielane_buffere.c.i"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_buffere.c" > CMakeFiles/kralovstva.dir/zdielane_buffere.c.i
+
+kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/zdielane_buffere.c.s"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_buffere.c" -o CMakeFiles/kralovstva.dir/zdielane_buffere.c.s
+
+kralovstva/CMakeFiles/kralovstva.dir/shm.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
+kralovstva/CMakeFiles/kralovstva.dir/shm.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/shm.c
+kralovstva/CMakeFiles/kralovstva.dir/shm.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object kralovstva/CMakeFiles/kralovstva.dir/shm.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/shm.c.o -MF CMakeFiles/kralovstva.dir/shm.c.o.d -o CMakeFiles/kralovstva.dir/shm.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/shm.c"
+
+kralovstva/CMakeFiles/kralovstva.dir/shm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/shm.c.i"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/shm.c" > CMakeFiles/kralovstva.dir/shm.c.i
+
+kralovstva/CMakeFiles/kralovstva.dir/shm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/shm.c.s"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/shm.c" -o CMakeFiles/kralovstva.dir/shm.c.s
+
+kralovstva/CMakeFiles/kralovstva.dir/hra.c.o: kralovstva/CMakeFiles/kralovstva.dir/flags.make
+kralovstva/CMakeFiles/kralovstva.dir/hra.c.o: /home/janec/semestralnaPraca\ 2.0/kralovstva/hra.c
+kralovstva/CMakeFiles/kralovstva.dir/hra.c.o: kralovstva/CMakeFiles/kralovstva.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object kralovstva/CMakeFiles/kralovstva.dir/hra.c.o"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT kralovstva/CMakeFiles/kralovstva.dir/hra.c.o -MF CMakeFiles/kralovstva.dir/hra.c.o.d -o CMakeFiles/kralovstva.dir/hra.c.o -c "/home/janec/semestralnaPraca 2.0/kralovstva/hra.c"
+
+kralovstva/CMakeFiles/kralovstva.dir/hra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kralovstva.dir/hra.c.i"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/janec/semestralnaPraca 2.0/kralovstva/hra.c" > CMakeFiles/kralovstva.dir/hra.c.i
+
+kralovstva/CMakeFiles/kralovstva.dir/hra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kralovstva.dir/hra.c.s"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/janec/semestralnaPraca 2.0/kralovstva/hra.c" -o CMakeFiles/kralovstva.dir/hra.c.s
 
 # Object files for target kralovstva
 kralovstva_OBJECTS = \
@@ -145,7 +215,12 @@ kralovstva_OBJECTS = \
 "CMakeFiles/kralovstva.dir/hrac.c.o" \
 "CMakeFiles/kralovstva.dir/kralovstvo.c.o" \
 "CMakeFiles/kralovstva.dir/main.c.o" \
-"CMakeFiles/kralovstva.dir/armada.c.o"
+"CMakeFiles/kralovstva.dir/armada.c.o" \
+"CMakeFiles/kralovstva.dir/zdielane_data.c.o" \
+"CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o" \
+"CMakeFiles/kralovstva.dir/zdielane_buffere.c.o" \
+"CMakeFiles/kralovstva.dir/shm.c.o" \
+"CMakeFiles/kralovstva.dir/hra.c.o"
 
 # External object files for target kralovstva
 kralovstva_EXTERNAL_OBJECTS =
@@ -155,20 +230,25 @@ kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o
 kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o
 kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/main.c.o
 kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/armada.c.o
+kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o
+kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o
+kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o
+kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/shm.c.o
+kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/hra.c.o
 kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/build.make
 kralovstva/kralovstva: kralovstva/CMakeFiles/kralovstva.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/janec/semestralnaPraca/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable kralovstva"
-	cd /home/janec/semestralnaPraca/build/kralovstva && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kralovstva.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/janec/semestralnaPraca 2.0/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable kralovstva"
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kralovstva.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kralovstva/CMakeFiles/kralovstva.dir/build: kralovstva/kralovstva
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/build
 
 kralovstva/CMakeFiles/kralovstva.dir/clean:
-	cd /home/janec/semestralnaPraca/build/kralovstva && $(CMAKE_COMMAND) -P CMakeFiles/kralovstva.dir/cmake_clean.cmake
+	cd "/home/janec/semestralnaPraca 2.0/build/kralovstva" && $(CMAKE_COMMAND) -P CMakeFiles/kralovstva.dir/cmake_clean.cmake
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/clean
 
 kralovstva/CMakeFiles/kralovstva.dir/depend:
-	cd /home/janec/semestralnaPraca/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/janec/semestralnaPraca /home/janec/semestralnaPraca/kralovstva /home/janec/semestralnaPraca/build /home/janec/semestralnaPraca/build/kralovstva /home/janec/semestralnaPraca/build/kralovstva/CMakeFiles/kralovstva.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd "/home/janec/semestralnaPraca 2.0/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/janec/semestralnaPraca 2.0" "/home/janec/semestralnaPraca 2.0/kralovstva" "/home/janec/semestralnaPraca 2.0/build" "/home/janec/semestralnaPraca 2.0/build/kralovstva" "/home/janec/semestralnaPraca 2.0/build/kralovstva/CMakeFiles/kralovstva.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : kralovstva/CMakeFiles/kralovstva.dir/depend
 

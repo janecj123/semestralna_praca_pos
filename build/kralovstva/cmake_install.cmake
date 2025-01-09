@@ -1,4 +1,4 @@
-# Install script for directory: /home/janec/semestralnaPraca/kralovstva
+# Install script for directory: /home/janec/semestralnaPraca 2.0/kralovstva
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
