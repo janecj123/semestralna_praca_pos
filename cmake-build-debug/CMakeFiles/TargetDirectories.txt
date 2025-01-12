@@ -1,0 +1,5 @@
+C:/Users/PC/Desktop/semestralnaPraca/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/semestralnaPraca/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/PC/Desktop/semestralnaPraca/cmake-build-debug/subojKralovstiev/CMakeFiles/subojKralovstiev.dir
+C:/Users/PC/Desktop/semestralnaPraca/cmake-build-debug/subojKralovstiev/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/semestralnaPraca/cmake-build-debug/subojKralovstiev/CMakeFiles/rebuild_cache.dir
