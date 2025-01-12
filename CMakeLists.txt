@@ -7,4 +7,4 @@ LANGUAGES C
 )
 
 
-add_subdirectory(kralovstva)
+add_subdirectory(subojKralovstiev)

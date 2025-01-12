@@ -1,62 +1,68 @@
 [
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/budova.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/budova.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/budova.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/budova.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/budova.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/budova.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/budova.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/budova.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/hrac.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/hrac.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/hrac.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/hrac.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/hrac.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/hrac.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/hrac.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/hrac.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/kralovstvo.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/kralovstvo.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/kralovstvo.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/kralovstvo.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/kralovstvo.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/kralovstvo.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/kralovstvo.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/kralovstvo.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/main.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/main.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/main.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/main.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/main.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/main.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/main.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/main.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/armada.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/armada.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/armada.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/armada.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/armada.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/armada.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/armada.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/armada.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/zdielane_data.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_data.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_data.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/zdielane_data.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/zdielane_data.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/zdielane_data.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/zdielane_data.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/zdielane_data.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_nazvy.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_nazvy.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/zdielane_nazvy.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/zdielane_nazvy.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/zdielane_nazvy.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/zdielane_nazvy.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/zdielane_nazvy.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/zdielane_buffere.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_buffere.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/zdielane_buffere.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/zdielane_buffere.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/zdielane_buffere.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/zdielane_buffere.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/zdielane_buffere.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/zdielane_buffere.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/shm.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/shm.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/shm.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/shm.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/shm.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/shm.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/shm.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/shm.c.o"
 },
 {
-  "directory": "/home/janec/semestralnaPraca 2.0/build/kralovstva",
-  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/kralovstva.dir/hra.c.o -c \"/home/janec/semestralnaPraca 2.0/kralovstva/hra.c\"",
-  "file": "/home/janec/semestralnaPraca 2.0/kralovstva/hra.c",
-  "output": "kralovstva/CMakeFiles/kralovstva.dir/hra.c.o"
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/hra.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/hra.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/hra.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/hra.c.o"
+},
+{
+  "directory": "/home/janec/semestralnaPraca/build/subojKralovstiev",
+  "command": "/usr/bin/cc -D_XOPEN_SOURCE=500  -O3 -DNDEBUG -std=c11 -Wall -Wextra -Wpedantic -o CMakeFiles/subojKralovstiev.dir/server.c.o -c /home/janec/semestralnaPraca/subojKralovstiev/server.c",
+  "file": "/home/janec/semestralnaPraca/subojKralovstiev/server.c",
+  "output": "subojKralovstiev/CMakeFiles/subojKralovstiev.dir/server.c.o"
 }
 ]

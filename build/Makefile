@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/janec/semestralnaPraca 2.0"
+CMAKE_SOURCE_DIR = /home/janec/semestralnaPraca
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/janec/semestralnaPraca 2.0/build"
+CMAKE_BINARY_DIR = /home/janec/semestralnaPraca/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/janec/semestralnaPraca 2.0/build/CMakeFiles" "/home/janec/semestralnaPraca 2.0/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles /home/janec/semestralnaPraca/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/janec/semestralnaPraca 2.0/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/janec/semestralnaPraca/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kralovstva
+# Target rules for targets named subojKralovstiev
 
 # Build rule for target.
-kralovstva: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kralovstva
-.PHONY : kralovstva
+subojKralovstiev: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subojKralovstiev
+.PHONY : subojKralovstiev
 
 # fast build rule for target.
-kralovstva/fast:
-	$(MAKE) $(MAKESILENT) -f kralovstva/CMakeFiles/kralovstva.dir/build.make kralovstva/CMakeFiles/kralovstva.dir/build
-.PHONY : kralovstva/fast
+subojKralovstiev/fast:
+	$(MAKE) $(MAKESILENT) -f subojKralovstiev/CMakeFiles/subojKralovstiev.dir/build.make subojKralovstiev/CMakeFiles/subojKralovstiev.dir/build
+.PHONY : subojKralovstiev/fast
 
 # Help Target
 help:
@@ -137,7 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... kralovstva"
+	@echo "... subojKralovstiev"
 .PHONY : help
 
 
